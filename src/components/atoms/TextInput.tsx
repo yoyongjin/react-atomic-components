@@ -1,6 +1,6 @@
+import { InputProps } from "@commonTypes/styledProps";
 import { Ref, forwardRef } from "react";
 import styled from "styled-components";
-import { InputProps } from "../../types/styledProps";
 
 const Input = styled.input<InputProps>`
   padding: 8px;

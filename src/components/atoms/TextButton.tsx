@@ -1,5 +1,5 @@
+import { ButtonProps } from "@commonTypes/styledProps";
 import styled from "styled-components";
-import { ButtonProps } from "../../types/styledProps";
 
 const Button = styled.button<ButtonProps>`
   padding: 10px 20px;
