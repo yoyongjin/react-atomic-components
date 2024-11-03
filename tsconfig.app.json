@@ -18,8 +18,20 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
     // "noUncheckedSideEffectImports": true
+
+    /* Path Alias*/
+    "baseUrl": ".",
+    "paths": {
+      // 폴더별 alias
+      "@commonTypes/*": ["src/types/*"],
+
+      // atomic alias
+      "@atoms/*": ["src/components/common/atoms/*"],
+      "@molecules/*": ["src/components/common/molecules/*"],
+      "@organisms/*": ["src/components/common/organisms/*"]
+    }
   },
   "include": ["src"]
 }
