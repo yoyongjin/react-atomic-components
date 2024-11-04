@@ -28,9 +28,9 @@
       "@commonTypes/*": ["src/types/*"],
 
       // atomic alias
-      "@atoms/*": ["src/components/common/atoms/*"],
-      "@molecules/*": ["src/components/common/molecules/*"],
-      "@organisms/*": ["src/components/common/organisms/*"]
+      "@atoms/*": ["src/components/atoms/*"],
+      "@molecules/*": ["src/components/molecules/*"],
+      "@organisms/*": ["src/components/organisms/*"]
     }
   },
   "include": ["src"]
